@@ -104,7 +104,7 @@
                 <img src="./src/images/icon.svg" alt="" class="w-80 h-auto mt-24"/>
             </div>
         </div>
-        <div class="flex justify-center gap-10">
+        <div class="flex justify-center gap-10 pb-14">
             <div class="pt-12">
                 <p class="text-4xl text-tradewind-400">人材の定着力を高める</p>
                 <p class="text-xl font-normal pt-6 leading-relaxed">
@@ -160,18 +160,231 @@
         </div>
     </div>
     <div class="bg-[#F5F8F5]">
-        <div class="flex flex-col items-center pt-16">
-            <p class="text-3xl text-tradewind-400 poppins">FEATURES</p>
-            <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
-            <p class="text-3xl">Engageoが選ばれる<span class="text-6xl text-tradewind-400 poppins">5</span>つの理由</p>
-        </div>
-        <div class="flex pt-36">
-            <div>
-                <p class="text-2xl text-white bg-tradewind-400 px-2 py-1 rounded-3xl poppins">Point.1</p>
+        <div class="w-[1043px] mx-auto pb-28">
+            <div class="flex flex-col items-center pt-16">
+                <p class="text-3xl text-tradewind-400 poppins">FEATURES</p>
+                <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
+                <p class="text-3xl">Engageoが選ばれる<span class="text-6xl text-tradewind-400 poppins">5</span>つの理由</p>
             </div>
-            <img src="./src/images/point-1.svg" alt="" class="w-[503px] h-auto">
-        </div>
+            <div class="flex pt-36 gap-7">
+                <div>
+                    <p class="w-max text-2xl text-white bg-tradewind-400 px-2 py-1 rounded-3xl poppins">Point.1</p>
+                    <p class="text-3xl pt-5 leading-relaxed">金銭報酬ではなく精神報酬を<br/>増やすことで<span class="text-tradewind-400 marker">定着力を高める提案</span></p>
+                    <p class="font-normal text-xl pt-9">
+                        給料・金銭報酬を高めることは、 確かに人財定着力向上に効果があります。 でも、 給料を上げることが可能ならばとっくにやっています。 <br/>
+                        <br/>
+                        Engageoは金銭報酬ではなく、 精神報酬を高めることに着目しています。一般に離職には 4 つの理由があります。<span class="text-tradewind-400">「報酬不満」「関係不満」「成長不満」「勤楽不満」</span>。<br/>
+                        <br/>
+                        4つの離職理由の内、 3つは金銭報酬ではない精神報酬の問題なのです。
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg w-[503px] shrink-0 pt-8 pb-5 flex flex-col items-center">
+                    <p class="text-3xl text-tradewind-400">離職理由の<span class="text-5xl">4</span>分類</p>
+                    <div class="grid grid-cols-2 gap-1 pt-8">
+                        <div class="w-[224px] h-[152px] bg-[#F5F8F5] flex flex-col justify-center items-center">
+                            <p class="text-xl text-tradewind-400"><span class="text-2xl">報酬</span>不満</p>
+                            <p class="font-normal text-center pt-2">給与や労働条件への<br/>不満</p>
+                        </div>
+                        <div class="w-[224px] h-[152px] bg-[#F5F8F5] flex flex-col justify-center items-center">
+                            <p class="text-xl text-tradewind-400"><span class="text-2xl">関係</span>不満</p>
+                            <p class="font-normal text-center pt-2">人間関係への<br/>不満</p>
+                        </div>
+                        <div class="w-[224px] h-[152px] bg-[#F5F8F5] flex flex-col justify-center items-center">
+                            <p class="text-xl text-tradewind-400"><span class="text-2xl">成長</span>不満</p>
+                            <p class="font-normal text-center pt-2">スキル向上・<br/>将来キャリアへの<br/>不満</p>
+                        </div>
+                        <div class="w-[224px] h-[152px] bg-[#F5F8F5] flex flex-col justify-center items-center">
+                            <p class="text-xl text-tradewind-400"><span class="text-2xl">勤楽</span>不満</p>
+                            <p class="font-normal text-center pt-2">仕事自体の楽しさへの<br/>不満</p>
+                        </div>
+                    </div>
+                    <p class="text-lg font-normal pt-4">報酬不満以外の3つの離職理由こそ「精神報酬」の不足です</p>
+                    <p class="text-2xl pt-5 text-center"><span class="text-tradewind-400 marker mx-1">金銭報酬</span>ではない<span class="text-tradewind-400 marker mx-1">精神報酬</span>の<br/>ウェイトは非常に大きい</p>
+                </div>
+            </div>
+            <div class="flex pt-28 gap-7">
+                <div>
+                    <p class="w-max text-2xl text-white bg-tradewind-400 px-2 py-1 rounded-3xl poppins">Point.2</p>
+                    <p class="text-3xl pt-5 leading-relaxed">従業員に媚びて甘やかすのではなく<br/><span class="text-tradewind-400 marker">本当に残っていほしい人が残る文化</span><br/>を作る</p>
+                    <p class="font-normal text-xl pt-9">
+                        人手不足の昨今では求人段階から求職者に媚びてしまうことがあります。<br/>
+                        <br/>
+                        求職者の目に留まるように、給料や福利厚生をしきりにアピールします。しかし、それで集まってきた人材は<span class="text-tradewind-400">「条件に惹かれて来た人」です。少しでも不満があれば、すぐにまた辞めてしまいます。</span><br/>
+                        <br/>
+                        本当に求める人財は御社の仕事内容に惹かれ、組織文化に合う人財ではないでしょうか?Engageoが目指すのは本当に残ってほしい人が定着する組織文化作りです。
+                    </p>
+                </div>
+                <div class="relative bg-white rounded-lg w-[499px] h-max shrink-0 pt-8 pb-5 flex flex-col items-center overflow-hidden">
+                    <img src="./src/images/point-2.svg" alt="" class="w-full absolute top-0 left-0" />
+                    <p class="relative text-3xl text-[#5A6C96]">悪循環</p>
+                    <div class="relative grid grid-cols-2 gap-1 pt-8">
+                        <div class="relative w-[224px] h-[189px] bg-gray-100 flex flex-col justify-center items-center" style="background-image: url('data:image/svg+xml;utf8,<svg width=\'100\' height=\'100\' xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'n\'><feTurbulence type=\'fractalNoise\' baseFrequency=\'0.8\' numOctaves=\'4\'/></filter><rect width=\'100%\' height=\'100%\' filter=\'url(%23n)\'/></svg>');">
+                            <p class="text-lg font-normal text-center">求人で<span class="text-2xl text-[#1D3C7B] font-bold">条件面</span>を<br/>アピールする</p>
+                            <img src="./src/images/point-2-arrow.svg" alt="" class="w-12 absolute z-50 top-1/2 -translate-y-1/2 -right-8" />
+                        </div>
+                        <div class="relative w-[224px] h-[189px] bg-gray-100 flex flex-col justify-center items-center" style="background-image: url('data:image/svg+xml;utf8,<svg width=\'100\' height=\'100\' xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'n\'><feTurbulence type=\'fractalNoise\' baseFrequency=\'0.8\' numOctaves=\'4\'/></filter><rect width=\'100%\' height=\'100%\' filter=\'url(%23n)\'/></svg>');">
+                            <p class="text-lg font-normal text-center"><span class="text-2xl text-[#1D3C7B] font-bold">条件に<br/>惹かれた人</span><br/>ばかりが<br/>集まってくる</p>
+                            <img src="./src/images/point-2-arrow.svg" alt="" class="w-12 absolute z-50 rotate-90 left-1/2 -translate-x-1/2 -bottom-8" />
+                        </div>
+                        <div class="relative w-[224px] h-[189px] bg-gray-100 flex flex-col justify-center items-center" style="background-image: url('data:image/svg+xml;utf8,<svg width=\'100\' height=\'100\' xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'n\'><feTurbulence type=\'fractalNoise\' baseFrequency=\'0.8\' numOctaves=\'4\'/></filter><rect width=\'100%\' height=\'100%\' filter=\'url(%23n)\'/></svg>');">
+                            <p class="text-lg font-normal text-center">せっかく<br/>採用したのに<br/><span class="text-2xl text-[#1D3C7B] font-bold">定着せず辞める</span></p>
+                            <img src="./src/images/point-2-arrow.svg" alt="" class="w-12 absolute z-50 -rotate-90 left-1/2 -translate-x-1/2 -top-8" />
+                        </div>
+                        <div class="relative w-[224px] h-[189px] bg-gray-100 flex flex-col justify-center items-center" style="background-image: url('data:image/svg+xml;utf8,<svg width=\'100\' height=\'100\' xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'n\'><feTurbulence type=\'fractalNoise\' baseFrequency=\'0.8\' numOctaves=\'4\'/></filter><rect width=\'100%\' height=\'100%\' filter=\'url(%23n)\'/></svg>');">
+                            <p class="text-lg font-normal text-center">応募数は減っても<br/>性質的には<br/>合った人が来る<br/><span class="text-2xl text-[#1D3C7B] font-bold">辞めやすい</span></p>
+                            <img src="./src/images/point-2-arrow.svg" alt="" class="w-12 absolute z-50 rotate-180 top-1/2 -translate-y-1/2 -left-8" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex pt-28 gap-7">
+                <div>
+                    <p class="w-max text-2xl text-white bg-tradewind-400 px-2 py-1 rounded-3xl poppins">Point.3</p>
+                    <p class="text-3xl pt-5 leading-relaxed tracking-tighter"><span class="text-tradewind-400 marker tracking-normal">組織の特性を数字にして見える化</span><br/>良いところを伸ばし、悪いところは改善</p>
+                    <p class="font-normal text-xl pt-9">
+                        Engageoは会社の特性・個性を数字化して目に見える形にします。数字化するのは会社全体だけではなく、部署や拠点ごとにも集計します。<br/>
+                        <br/>
+                        同じ会社でも、上司や部署によって全く異なる特性が出ることも珍しくありません。こうして<span class="text-tradewind-400">会社の特性を把握したうえで、良いところは伸ばし、悪いところを改善</span>します。<br/>
+                        <br/>
+                        求人では会社の個性を正直にアピールすることで、自社に合った人財を求めます。
+                    </p>
+                </div>
+                <div class="relative bg-white rounded-lg w-[502px] h-max shrink-0 pt-8 pb-5 flex flex-col items-center">
+                    <p class="relative text-3xl text-sunshade-400">好循環</p>
+                    <img src="./src/images/point-3.svg" alt="" class="w-9 absolute top-6 right-40" />
+                    <div class="relative grid grid-cols-2 gap-1 pt-8">
+                        <div class="relative w-[224px] h-[189px] bg-[#FFFAE5] flex flex-col justify-center items-center">
+                            <p class="text-lg font-normal text-center">求人で<br/><span class="text-2xl text-sunshade-400 font-bold">会社の個性</span><br/>正直にアピールする</p>
+                            <img src="./src/images/point-3-arrow.svg" alt="" class="w-12 absolute z-50 top-1/2 -translate-y-1/2 -right-8" />
+                        </div>
+                        <div class="relative w-[224px] h-[189px] bg-[#FFFAE5] flex flex-col justify-center items-center">
+                            <p class="text-lg font-normal text-center"><span class="text-2xl text-sunshade-400 font-bold">内容に<br/>惹かれた人</span><br/>ばかりが<br/>集まってくる</p>
+                            <img src="./src/images/point-3-arrow.svg" alt="" class="w-12 absolute z-50 rotate-90 left-1/2 -translate-x-1/2 -bottom-8" />
+                        </div>
+                        <div class="relative w-[224px] h-[189px] bg-[#FFFAE5] flex flex-col justify-center items-center">
+                            <p class="text-lg font-normal text-center">定着すれば<br/><span class="text-2xl text-sunshade-400 font-bold">数年後</span>に<br/><span class="text-2xl text-sunshade-400 font-bold">中堅</span>になり</p>
+                            <img src="./src/images/point-3-arrow.svg" alt="" class="w-12 absolute z-50 -rotate-90 left-1/2 -translate-x-1/2 -top-8" />
+                        </div>
+                        <div class="relative w-[224px] h-[189px] bg-[#FFFAE5] flex flex-col justify-center items-center">
+                            <p class="text-lg font-normal text-center">仕事内容ではなく<br/>条件に惹かれた<br/>人だから<br/><span class="text-2xl text-sunshade-400 font-bold">定着力は上がる</span></p>
+                            <img src="./src/images/point-3-arrow.svg" alt="" class="w-12 absolute z-50 rotate-180 top-1/2 -translate-y-1/2 -left-8" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex pt-28 gap-7">
+                <div>
+                    <p class="w-max text-2xl text-white bg-tradewind-400 px-2 py-1 rounded-3xl poppins">Point.4</p>
+                    <p class="text-3xl pt-5 leading-relaxed tracking-tighter">組織の<span class="text-tradewind-400 marker tracking-normal">特性を数字にして見える化</span><br/>良いところを伸ばし、悪いところは改善</p>
+                    <p class="font-normal text-xl pt-9">
+                        Engageoは上司と部下の垂直の関係性リーダシップを測ります。<br/>
+                        <br/>
+                        同時に、 同僚との横の関係性メンバーシップを測ります。この<span class="text-tradewind-400">リーダーシップ軸とメンバーシップ軸の強さ弱さにより会社を 4 タイプに分類</span>します。 <br/>
+                        <br/>
+                        また、 部署や拠点ごとの傾向も明らかになります。
+                    </p>
+                </div>
+                <div class="relative bg-white rounded-lg w-[502px] h-max shrink-0 pt-8 pb-16 flex flex-col items-center">
+                    <p class="relative text-3xl text-tradewind-400">組織の特性</p>
+                    <div class="relative grid grid-cols-2 gap-1 mt-8 pl-7">
+                        <div class="relative w-[200px] h-[169px] bg-[#F5F8F5] flex flex-col justify-center items-center gap-1">
+                            <img src="./src/images/point-4-mark1.svg" alt="" class="w-7 h-auto" />
+                            <p class="text-xl text-tradewind-400">垂直型</p>
+                        </div>
+                        <div class="relative w-[200px] h-[169px] bg-[#F5F8F5] flex flex-col justify-center items-center gap-1">
+                            <img src="./src/images/point-4-mark2.svg" alt="" class="w-11 h-auto" />
+                            <p class="text-xl text-[#458BB3]">安定型</p>
+                        </div>
+                        <div class="relative w-[200px] h-[169px] bg-[#F5F8F5] flex flex-col justify-center items-center gap-1">
+                            <img src="./src/images/point-4-mark3.svg" alt="" class="w-14 h-auto" />
+                            <p class="text-xl text-[#45B364]">孤立型</p>
+                        </div>
+                        <div class="relative w-[200px] h-[169px] bg-[#F5F8F5] flex flex-col justify-center items-center gap-1">
+                            <img src="./src/images/point-4-mark4.svg" alt="" class="w-11 h-auto" />
+                            <p class="text-xl text-[#A16CAC]">水平型</p>
+                        </div>
+                        <div class="absolute -left-3 top-0">
+                            <div class="relative">
+                                <svg class="" width="23" height="372" viewBox="0 0 23 372" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.5237 0.944092C11.111 0.356812 12.0631 0.356812 12.6504 0.944092L22.2204 10.5141C22.8076 11.1013 22.8076 12.0535 22.2204 12.6407C21.6331 13.228 20.681 13.228 20.0937 12.6407L11.587 4.13406L3.08038 12.6407C2.49312 13.228 1.54098 13.228 0.953717 12.6407C0.366456 12.0535 0.366456 11.1013 0.953717 10.5141L10.5237 0.944092ZM13.0908 370.433C13.0908 371.264 12.4175 371.937 11.587 371.937C10.7565 371.937 10.0833 371.264 10.0833 370.433H11.587H13.0908ZM11.587 2.00742H13.0908V370.433H11.587H10.0833V2.00742H11.587Z" fill="#45B3B1"/>
+                                </svg>
+                                <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 py-2 text-xl font-normal bg-white [writing-mode:vertical-rl]">リーダーシップ</p>
+                            </div>
+                        </div>
+                        <div class="absolute left-0 -bottom-10">
+                            <div class="relative">
+                                <svg width="440" height="23" viewBox="0 0 440 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M438.746 10.3698C439.333 10.9571 439.333 11.9092 438.746 12.4965L429.176 22.0664C428.589 22.6537 427.637 22.6537 427.049 22.0664C426.462 21.4792 426.462 20.527 427.049 19.9398L435.556 11.4331L427.049 2.92647C426.462 2.33921 426.462 1.38707 427.049 0.799806C427.637 0.212544 428.589 0.212544 429.176 0.799806L438.746 10.3698ZM1.58704 12.9369C0.756522 12.9369 0.0832578 12.2636 0.0832578 11.4331C0.0832578 10.6026 0.756522 9.92935 1.58704 9.92935L1.58704 11.4331L1.58704 12.9369ZM437.683 11.4331L437.683 12.9369L1.58704 12.9369L1.58704 11.4331L1.58704 9.92935L437.683 9.92935L437.683 11.4331Z" fill="#45B3B1"/>
+                                </svg>
+                                <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 px-2 text-xl font-normal bg-white">メンバーシップ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 w-full bg-white rounded-lg px-9 py-7 grid grid-cols-2 space-y-6">
+                <div>
+                    <div class="flex items-center gap-5">
+                        <img src="./src/images/point-4-mark1.svg" alt="" class="w-7 h-auto" />
+                        <p class="text-xl text-tradewind-400">垂直型</p>
+                    </div>
+                    <div class="flex items-center gap-1 pt-2">
+                        <div class="w-3 h-3 rounded-full bg-tradewind-400"></div>
+                        <p class="text-lg font-normal">上司からのマネジメントは強い</p>
+                    </div>
+                    <div class="flex items-center gap-1 pt-1">
+                        <div class="w-3 h-3 rounded-full bg-tradewind-400"></div>
+                        <p class="text-lg font-normal">ただし横のつながりが弱く離職につながりやすい</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-3">
+                        <img src="./src/images/point-4-mark2.svg" alt="" class="w-11 h-auto" />
+                        <p class="text-xl text-[#458BB3]">安定型</p>
+                    </div>
+                    <div class="flex items-center gap-1 pt-2">
+                        <div class="w-3 h-3 rounded-full bg-[#458BB3]"></div>
+                        <p class="text-lg font-normal">上司・同僚ともにつながりが強い</p>
+                    </div>
+                    <div class="flex items-center gap-1 pt-1">
+                        <div class="w-3 h-3 rounded-full bg-[#458BB3]"></div>
+                        <p class="text-lg font-normal">良い組織文化を持ちさらに伸ばしていきたい</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <img src="./src/images/point-4-mark3.svg" alt="" class="w-14 h-auto" />
+                        <p class="text-xl text-[#45B364]">孤立型</p>
+                    </div>
+                    <div class="flex items-center gap-1 pt-2">
+                        <div class="w-3 h-3 rounded-full bg-[#45B364]"></div>
+                        <p class="text-lg font-normal">上司・同僚ともにつながりが弱い</p>
+                    </div>
+                    <div class="flex items-center gap-1 pt-1">
+                        <div class="w-3 h-3 rounded-full bg-[#45B364]"></div>
+                        <p class="text-lg font-normal">個々人が孤立しがち離職につながりやすい</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <img src="./src/images/point-4-mark4.svg" alt="" class="w-11 h-auto" />
+                        <p class="text-xl text-[#A16CAC]">水平型</p>
+                    </div>
+                    <div class="flex items-center gap-1 pt-2">
+                        <div class="w-3 h-3 rounded-full bg-[#A16CAC]"></div>
+                        <p class="text-lg font-normal">同僚からの横つながりは強い</p>
+                    </div>
+                    <div class="flex items-center gap-1 pt-1">
+                        <div class="w-3 h-3 rounded-full bg-[#A16CAC]"></div>
+                        <p class="text-lg font-normal">ただし上司との関係が弱く業務遂行能力が低下しがち</p>
+                    </div>
+                </div>
 
+            </div>
+
+
+            
+        </div>
     </div>
 
 
