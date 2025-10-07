@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./src/popup.js"></script>
 </head>
 <body>
     <div class="relative z-50 w-full h-16 bg-white px-20 flex justify-between items-center">
@@ -275,7 +277,7 @@
             <div class="flex pt-28 gap-7">
                 <div>
                     <p class="w-max text-2xl text-white bg-tradewind-400 px-2 py-1 rounded-3xl poppins">Point.4</p>
-                    <p class="text-3xl pt-5 leading-relaxed tracking-tighter">組織の<span class="text-tradewind-400 marker tracking-normal">特性を数字にして見える化</span><br/>良いところを伸ばし、悪いところは改善</p>
+                    <p class="text-3xl pt-5 leading-relaxed tracking-tighter">組織の<span class="text-tradewind-400 marker tracking-normal">特性を数字にして見える化</span><br/>良いところを伸ばし、悪いところは改善</p><!-- タイトル前と同じ?? -->
                     <p class="font-normal text-xl pt-9">
                         Engageoは上司と部下の垂直の関係性リーダシップを測ります。<br/>
                         <br/>
@@ -379,18 +381,653 @@
                         <p class="text-lg font-normal">ただし上司との関係が弱く業務遂行能力が低下しがち</p>
                     </div>
                 </div>
-
             </div>
-
-
-            
         </div>
     </div>
+    <div style="background-image: url('./src/images/bg-important.webp'); background-size: cover; background-position: center; position: relative;">
+        <div class="absolute inset-0 bg-white/30 backdrop-blur-sm pointer-events-none"></div>
+        <div class="flex flex-col items-center py-20 relative z-10">
+            <p class="text-3xl text-tradewind-400 poppins">WHY IMPORTANT</p>
+            <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
+            <p class="text-4xl">なぜ人財定着力が大切なのでしょうか?</p>
+            <p class="font-normal text-xl text-center leading-loose pt-8 ">
+                採用がしんどい時代です<br/>
+                そんな中離職が多いと採用会社ばかりが儲かります<br/>
+                それはとてももったいないと思い診断を作りました。<br/>
+                なにしろ 今後も求人は厳しくなる一方ですだから<br/><!-- 文章?? -->
+                定着力は高いに越したことはありません
+            </p>
+            <div class="pt-14 flex justify-center items-center gap-1">
+                <div class="bg-white w-60 h-28 pt-4 pl-4">
+                    <p class="text-tradewind-400 poppins text-xl">01</p>
+                    <p class="font-normal text-base">採用が<span class="text-tradewind-400 font-bold text-xl">しんどい時代</span>です</p>
+                </div>
+                <svg width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.4978 14.0016L0.733828 27.3791L0.733829 0.624184L18.4978 14.0016Z" fill="#D9D9D9"/>
+                </svg>
+                <div class="bg-white w-60 h-28 pt-4 pl-4">
+                    <p class="text-tradewind-400 poppins text-xl">02</p>
+                    <p class="font-normal text-base">そんな中<span class="text-tradewind-400 font-bold text-xl">離職が多いと</span><br/>採用会社ばかりが儲かります</p>
+                </div>
+                <svg width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.4978 14.0016L0.733828 27.3791L0.733829 0.624184L18.4978 14.0016Z" fill="#D9D9D9"/>
+                </svg>
+                <div class="bg-white w-60 h-28 pt-4 pl-4">
+                    <p class="text-tradewind-400 poppins text-xl">03</p>
+                    <p class="font-normal text-base">それはとても<span class="text-tradewind-400 font-bold text-xl">もったいない</span><br/>と思い診断を作りました</p>
+                </div>
+                <svg width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.4978 14.0016L0.733828 27.3791L0.733829 0.624184L18.4978 14.0016Z" fill="#D9D9D9"/>
+                </svg>
+                <div class="bg-white w-60 h-28 pt-4 pl-4">
+                    <p class="text-tradewind-400 poppins text-xl">04</p>
+                    <p class="font-normal text-base">だから<span class="text-tradewind-400 font-bold text-xl">定着力は高い</span>に<br/>越したことはありません</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#F2F9FF]">
+        <img src="./src/images/bg-case.webp" alt="" class="w-full h-[306px]"/>
+        <div class="flex flex-col items-center -mt-52 pb-24 relative z-10">
+            <p class="text-3xl text-tradewind-400 poppins">CASE</p>
+            <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
+            <p class="text-4xl">組織タイプ別のケース例</p>
+            <div class="grid grid-cols-2 gap-8 w-[1036px] mx-auto pt-16">
+                <div class="bg-white py-7 px-5 rounded-lg">
+                    <div class="flex items-center gap-5">
+                        <img src="./src/images/point-4-mark1.svg" alt="" class="w-7 h-auto" />
+                        <p class="text-xl text-tradewind-400">垂直型</p>
+                    </div>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">上司から部下への強制力は強く、業績につながる行動がとりやすい組織特性です。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">反面、同僚との横方向のつながりは弱く、チームワークには課題が残ります。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">横のつながりが弱い組織は殺伐とした文化となり、離職につながりやすいです。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">良い意味でのストレス、良い意味での競争意識があれば垂直型の良さが活かされます。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">皆で情報を共有したり、得意な分野で助け合ったりすることが出来れば組織力は上がります。</p>
+                    </div>
+                </div>
+                <div class="bg-white py-7 px-5 rounded-lg">
+                    <div class="flex items-center gap-3">
+                        <img src="./src/images/point-4-mark2.svg" alt="" class="w-11 h-auto" />
+                        <p class="text-xl text-[#458BB3]">安定型</p>
+                    </div>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#458BB3] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">上司・同僚ともにつながりが強く、好ましい組織文化を持っています。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#458BB3] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">チームワークも作りやすく、業務遂行能力も高い傾向があります。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#458BB3] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">部門間の格差をなくし、好ましい文化を伸ばすことができれば一段上の結果が得られます。</p>
+                    </div>
+                </div>
+                <div class="bg-white py-7 px-5 rounded-lg">
+                    <div class="flex items-center gap-2">
+                        <img src="./src/images/point-4-mark3.svg" alt="" class="w-14 h-auto" />
+                        <p class="text-xl text-[#45B364]">孤立型</p>
+                    </div>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">上司・部下ともにつながりが弱い、一匹狼的な組織文化を持ちます。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">つながりは弱いですが、一概に悪い文化とは言えません。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">自分のペースでの仕事を好む人には居心地の良い組織文化とも言えます。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">一匹狼的な文化を維持しつつ、明快な戦略やビジョンで方向性を統一すると組織文化が活きます。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">あるいは上司・部下との関係性を改善し、別の組織文化を目指すのも良い手です。</p>
+                    </div>
+                </div>
+                <div class="bg-white py-7 px-5 rounded-lg">
+                    <div class="flex items-center gap-2">
+                        <img src="./src/images/point-4-mark4.svg" alt="" class="w-11 h-auto" />
+                        <p class="text-xl text-[#A16CAC]">水平型</p>
+                    </div>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">同僚との横のつながりは強く、仲間意識や助け合いが発生しやすい組織特性です。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">ただし上司との関係性は弱く、業務遂行能力は低下しがちです。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">悪い状態だと、馴れ合い型の組織になり、上司は部下のわがままに振り回されます。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">また、横のつながりが強いが故に、一度に大量離職が発生する素地があります。</p>
+                    </div>
+                    <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
+                    <div class="pt-3 flex">
+                        <div class="w-5 h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="pl-1 pr-6 font-normal text-lg leading-relaxed">上司との関係を改善すると、チームワークと業務遂行能力を兼ね揃えた組織へと変わります。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="flex flex-col items-center pt-40 pb-14 relative z-10">
+            <p class="text-3xl text-tradewind-400 poppins">FLOW</p>
+            <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
+            <p class="text-4xl">Engageoの流れ</p>
+            <div class="w-[1169px] mx-auto pt-12">
+                <div class="flex justify-center items-center gap-10">
+                    <div class="flex flex-col items-center">
+                        <div class="relative w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center pt-7 pb-4">
+                            <p class="poppins text-2xl text-tradewind-400 ">STEP1</p>
+                            <div class="grow"></div>
+                            <img src="./src/images/flow-step1-1.svg" alt="">
+                            <div class="grow"></div>
+                            <p class="font-normal text-base text-center">無料簡易診断で<br/>自社のタイプ調べる</p>
+                            <img src="./src/images/flow-arrow.svg" alt="" class="absolute -right-8 bottom-10">
+                        </div>
+                        <div class="w-10 h-10 rounded-full bg-tradewind-400 flex justify-center items-center -mt-2 relative z-50">
+                            <p class="poppins text-white text-base font-medium">OR</p>
+                        </div>
+                        <div class="relative w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center pt-7 pb-4 -mt-3">
+                            <p class="poppins text-2xl text-tradewind-400">STEP1</p>
+                            <div class="grow"></div>
+                            <img src="./src/images/flow-step1-2.svg" alt="">
+                            <div class="grow"></div>
+                            <p class="font-normal text-base text-center">さっそく説明を<br/>受けてみる</p>
+                            <img src="./src/images/flow-arrow.svg" alt="" class="absolute -right-8 top-10">
+                        </div>
+                    </div>
+                    <div class="relative w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center pt-7 pb-4">
+                        <p class="poppins text-2xl text-tradewind-400">STEP2</p>
+                        <div class="grow"></div>
+                        <img src="./src/images/flow-step2.svg" alt="">
+                        <div class="grow"></div>
+                        <p class="font-normal text-base text-center">WEB会議で<br/>サービス説明</p>
+                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute -right-8 top-1/2 -translate-y-1/2">
+                    </div>
+                    <div class="relative w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center py-7">
+                        <p class="poppins text-2xl text-tradewind-400">STEP3</p>
+                        <div class="grow"></div>
+                        <img src="./src/images/flow-step3.svg" alt="">
+                        <div class="grow"></div>
+                        <p class="font-normal text-base text-center">ご契約</p>
+                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute -right-8 top-1/2 -translate-y-1/2">
+                    </div>
+                    <div class="relative w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center pt-7 pb-4">
+                        <p class="poppins text-2xl text-tradewind-400">STEP4</p>
+                        <div class="grow"></div>
+                        <img src="./src/images/flow-step4.svg" alt="">
+                        <div class="grow"></div>
+                        <p class="font-normal text-base text-center">当社より診断用の<br/>WEBリンクを発行</p>
+                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute -right-8 top-1/2 -translate-y-1/2">
+                    </div>
+                    <div class="relative w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center pt-7 pb-4">
+                        <p class="poppins text-2xl text-tradewind-400">STEP5</p>
+                        <div class="grow"></div>
+                        <img src="./src/images/flow-step5.svg" alt="">
+                        <div class="grow"></div>
+                        <p class="font-normal text-base text-center">社員にWEBリンクを<br/>配布しアンケート回収</p>
+                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute -right-8 top-1/2 -translate-y-1/2">
+                    </div>
+                    <div class="relative w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center py-7">
+                        <p class="poppins text-2xl text-tradewind-400">STEP5</p><!-- 5?? -->
+                        <div class="grow"></div>
+                        <img src="./src/images/flow-step6.svg" alt="">
+                        <div class="grow"></div>
+                        <p class="font-normal text-base text-center">診断報告</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#F2F9FF]">
+        <div class="flex flex-col items-center pt-20 pb-32 relative z-10">
+            <p class="text-3xl text-tradewind-400 poppins">Price</p><!-- 小文字?? -->
+            <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
+            <p class="text-4xl">利用料金</p>
+            <div class="relative flex justify-center items-center gap-3 mt-9">
+                <div class="bg-white px-16 py-14 flex flex-col items-center">
+                    <p class="bg-tradewind-400 text-white text-2xl px-32 py-1 rounded-full">基本料金</p>
+                    <p class="text-3xl pt-8"><span class="text-tradewind-400 text-6xl poppins">55,000</span>円(税込)</p>
+                </div>
+                <div class="bg-white px-16 py-14 flex flex-col items-center">
+                    <p class="bg-tradewind-400 text-white text-2xl px-32 py-1 rounded-full">人数料金</p>
+                    <p class="text-3xl pt-8"><span class="text-tradewind-400 text-6xl poppins">330</span>円/人(税込)</p>
+                </div>
+                <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-12 h-12 bg-tradewind-400 rounded-full flex justify-center items-center">
+                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.2054 9.12028H10.1302V15.3459H6.94217V9.12028H0.866907V6.23303H6.94217V0.00738443H10.1302V6.23303H16.2054V9.12028Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#EAF4FF] relative">
+        <img src="./src/images/why-img.webp" alt="" class="absolute right-0 bottom-0 w-[825px]">
+        <div class="pt-14 pb-16 pl-56">
+            <img src="./src/images/why.svg" alt="" class="">
+            <p class="text-4xl -mt-3">なぜ 成果がでるのか?</p>
+            <p class="font-normal text-xl w-[513px] pt-9 relative">
+                給料・金銭報酬は確かに大切ですが、精神報酬も同じように大切です。<br/>
+                <br/>
+                給料・金銭報酬が一ヶ月でなければ大変なことになります。<br/>
+                <br/>
+                でも、例えば褒めるといった精神報酬は何ヶ月も何年も与えられていないことがあります。精神報酬の価値は数々の研究でも明らかにされています。<br/>
+                動機づけられた従業員は87%も離職する可能性が低い<br/>
+                <span class="text-[#838383] text-xs">引用元:TeamStage - Motivation Statistics 2024</span><br/>
+                <br/>
+                エンゲージメントの低い従業員と比較して、動機づけられた従業員は12倍も離職率が低い<br/>
+                <span class="text-[#838383] text-xs">引用元:TeamStage - Motivation Statistics 2024</span><br/>
+                <br/>
+                81%の従業員がより高く評価されればより懸命に働くと回答<br/>
+                <span class="text-[#838383] text-xs">
+                    引用元:EFX - 38 Statistics On Employee Recognition & Motivation (2025) Glassdoor 研究<br/>
+                    動機づけられた従業員は 20 %高いパフォーマンスを示す<br/>
+                    引用元:TeamStage - Motivation Statistics 2024
+                </span>
+            </p>
+        </div>
+        <svg class="absolute top-48 left-0" width="83" height="101" viewBox="0 0 83 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.3" cx="45.9104" cy="63.9107" r="36.8426" fill="#F3E15C"/>
+            <circle opacity="0.6" cx="18.8426" cy="36.8426" r="36.8426" fill="white"/>
+        </svg>
+        <svg class="absolute left-0 bottom-0" width="118" height="135" viewBox="0 0 118 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.6" cx="49.67" cy="67.67" r="67.67" fill="white"/>
+        </svg>
+        <svg class="absolute top-10 right-[515px]" width="207" height="175" viewBox="0 0 207 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.3" cx="167.5" cy="135.5" r="39.5" fill="#F3E15C"/>
+            <circle opacity="0.6" cx="48" cy="48" r="48" fill="white"/>
+        </svg>
+        <svg class="absolute top-2 right-24" width="196" height="193" viewBox="0 0 196 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.5" cx="127.821" cy="67.67" r="67.67" fill="#F3E15C"/>
+            <circle opacity="0.4" cx="67.67" cy="124.814" r="67.67" fill="white"/>
+        </svg>
+        <svg class="absolute right-32 top-1/2 -translate-y-1/2 " width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.3" cx="36.8426" cy="36.8426" r="36.8426" fill="#F3E15C"/>
+        </svg>
+    </div>
+    <div class="bg-[#F2F9FF]">
+        <div class="flex flex-col items-center py-20 relative z-10">
+            <p class="text-3xl text-tradewind-400 poppins">FAQ</p>
+            <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
+            <p class="text-4xl">よくある質問</p>
+            <!-- FAQリスト例 -->
+            <div class="faq-list w-[771px] mx-auto pt-14">
+                <div class="faq-item py-4 cursor-pointer bg-white rounded-lg">
+                    <div class="faq-question text-xl font-bold flex items-center justify-between px-3 py-5">
+                        <div class="flex items-center gap-1">
+                            <div class="w-8 h-8 bg-tradewind-400 rounded-full flex justify-center items-center">
+                                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.61149 6.71371C3.61149 8.80504 4.83568 10.1822 6.77398 10.1822C8.67827 10.1822 9.91947 8.80504 9.91947 6.71371C9.91947 4.58839 8.67827 3.24518 6.77398 3.24518C4.83568 3.24518 3.61149 4.58839 3.61149 6.71371ZM12.8779 6.71371C12.8779 8.80504 11.9598 10.5223 10.5316 11.6105L13.15 14.756H9.63042L8.10019 12.6986C7.67512 12.7836 7.23305 12.8347 6.77398 12.8347C3.39046 12.8347 0.636037 10.3013 0.636037 6.71371C0.636037 3.12616 3.39046 0.609776 6.77398 0.609776C10.1745 0.609776 12.8779 3.12616 12.8779 6.71371Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-xl text-tradewind-400">会社の一部門だけでも診断できますか?</p>
+                        </div>
+                        <span class="relative w-6 h-6 inline-block">
+                            <svg class="faq-toggle plus absolute inset-0 transition-all duration-300 opacity-100 scale-100" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                                <path d="M11.0847 19.8099L11.0847 2.20007" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                            <svg class="faq-toggle minus absolute inset-0 transition-all duration-300 opacity-0 scale-90 pointer-events-none" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer text-base pt-3 hidden px-3 py-5">
+                        <hr class="border-[#D9D9D9] border-dashed"/>
+                        <div class="flex gap-1 pt-5">
+                            <div class="w-8 h-8 bg-[#333333] rounded-full flex justify-center items-center shrink-0">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.48772 12.7157L8.77361 10.6074H4.31893L3.60482 12.7157H0.561348L4.88001 0.779863H8.24653L12.5652 12.7157H9.48772ZM8.0255 8.36303L6.54627 3.99336L5.08404 8.36303H8.0255Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-lg font-normal">一部門だけでも診断可能です。<br/>ただ、拠点や部署ごとの違いを比較したほうが、長所や短所がより明確になりますので、原則としては会社全体での人財定着力診断®をオススメしています。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item py-4 cursor-pointer bg-white rounded-lg mt-7">
+                    <div class="faq-question text-xl font-bold flex items-center justify-between px-3 py-5">
+                        <div class="flex items-center gap-1">
+                            <div class="w-8 h-8 bg-tradewind-400 rounded-full flex justify-center items-center">
+                                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.61149 6.71371C3.61149 8.80504 4.83568 10.1822 6.77398 10.1822C8.67827 10.1822 9.91947 8.80504 9.91947 6.71371C9.91947 4.58839 8.67827 3.24518 6.77398 3.24518C4.83568 3.24518 3.61149 4.58839 3.61149 6.71371ZM12.8779 6.71371C12.8779 8.80504 11.9598 10.5223 10.5316 11.6105L13.15 14.756H9.63042L8.10019 12.6986C7.67512 12.7836 7.23305 12.8347 6.77398 12.8347C3.39046 12.8347 0.636037 10.3013 0.636037 6.71371C0.636037 3.12616 3.39046 0.609776 6.77398 0.609776C10.1745 0.609776 12.8779 3.12616 12.8779 6.71371Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-xl text-tradewind-400">会社の一部門だけでも診断できますか?</p>
+                        </div>
+                        <span class="relative w-6 h-6 inline-block">
+                            <svg class="faq-toggle plus absolute inset-0 transition-all duration-300 opacity-100 scale-100" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                                <path d="M11.0847 19.8099L11.0847 2.20007" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                            <svg class="faq-toggle minus absolute inset-0 transition-all duration-300 opacity-0 scale-90 pointer-events-none" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer text-base pt-3 hidden px-3 py-5">
+                        <hr class="border-[#D9D9D9] border-dashed"/>
+                        <div class="flex gap-1 pt-5">
+                            <div class="w-8 h-8 bg-[#333333] rounded-full flex justify-center items-center shrink-0">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.48772 12.7157L8.77361 10.6074H4.31893L3.60482 12.7157H0.561348L4.88001 0.779863H8.24653L12.5652 12.7157H9.48772ZM8.0255 8.36303L6.54627 3.99336L5.08404 8.36303H8.0255Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-lg font-normal">一部門だけでも診断可能です。<br/>ただ、拠点や部署ごとの違いを比較したほうが、長所や短所がより明確になりますので、原則としては会社全体での人財定着力診断®をオススメしています。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item py-4 cursor-pointer bg-white rounded-lg mt-7">
+                    <div class="faq-question text-xl font-bold flex items-center justify-between px-3 py-5">
+                        <div class="flex items-center gap-1">
+                            <div class="w-8 h-8 bg-tradewind-400 rounded-full flex justify-center items-center">
+                                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.61149 6.71371C3.61149 8.80504 4.83568 10.1822 6.77398 10.1822C8.67827 10.1822 9.91947 8.80504 9.91947 6.71371C9.91947 4.58839 8.67827 3.24518 6.77398 3.24518C4.83568 3.24518 3.61149 4.58839 3.61149 6.71371ZM12.8779 6.71371C12.8779 8.80504 11.9598 10.5223 10.5316 11.6105L13.15 14.756H9.63042L8.10019 12.6986C7.67512 12.7836 7.23305 12.8347 6.77398 12.8347C3.39046 12.8347 0.636037 10.3013 0.636037 6.71371C0.636037 3.12616 3.39046 0.609776 6.77398 0.609776C10.1745 0.609776 12.8779 3.12616 12.8779 6.71371Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-xl text-tradewind-400">会社の一部門だけでも診断できますか?</p>
+                        </div>
+                        <span class="relative w-6 h-6 inline-block">
+                            <svg class="faq-toggle plus absolute inset-0 transition-all duration-300 opacity-100 scale-100" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                                <path d="M11.0847 19.8099L11.0847 2.20007" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                            <svg class="faq-toggle minus absolute inset-0 transition-all duration-300 opacity-0 scale-90 pointer-events-none" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer text-base pt-3 hidden px-3 py-5">
+                        <hr class="border-[#D9D9D9] border-dashed"/>
+                        <div class="flex gap-1 pt-5">
+                            <div class="w-8 h-8 bg-[#333333] rounded-full flex justify-center items-center shrink-0">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.48772 12.7157L8.77361 10.6074H4.31893L3.60482 12.7157H0.561348L4.88001 0.779863H8.24653L12.5652 12.7157H9.48772ZM8.0255 8.36303L6.54627 3.99336L5.08404 8.36303H8.0255Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-lg font-normal">一部門だけでも診断可能です。<br/>ただ、拠点や部署ごとの違いを比較したほうが、長所や短所がより明確になりますので、原則としては会社全体での人財定着力診断®をオススメしています。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item py-4 cursor-pointer bg-white rounded-lg mt-7">
+                    <div class="faq-question text-xl font-bold flex items-center justify-between px-3 py-5">
+                        <div class="flex items-center gap-1">
+                            <div class="w-8 h-8 bg-tradewind-400 rounded-full flex justify-center items-center">
+                                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.61149 6.71371C3.61149 8.80504 4.83568 10.1822 6.77398 10.1822C8.67827 10.1822 9.91947 8.80504 9.91947 6.71371C9.91947 4.58839 8.67827 3.24518 6.77398 3.24518C4.83568 3.24518 3.61149 4.58839 3.61149 6.71371ZM12.8779 6.71371C12.8779 8.80504 11.9598 10.5223 10.5316 11.6105L13.15 14.756H9.63042L8.10019 12.6986C7.67512 12.7836 7.23305 12.8347 6.77398 12.8347C3.39046 12.8347 0.636037 10.3013 0.636037 6.71371C0.636037 3.12616 3.39046 0.609776 6.77398 0.609776C10.1745 0.609776 12.8779 3.12616 12.8779 6.71371Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-xl text-tradewind-400">会社の一部門だけでも診断できますか?</p>
+                        </div>
+                        <span class="relative w-6 h-6 inline-block">
+                            <svg class="faq-toggle plus absolute inset-0 transition-all duration-300 opacity-100 scale-100" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                                <path d="M11.0847 19.8099L11.0847 2.20007" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                            <svg class="faq-toggle minus absolute inset-0 transition-all duration-300 opacity-0 scale-90 pointer-events-none" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer text-base pt-3 hidden px-3 py-5">
+                        <hr class="border-[#D9D9D9] border-dashed"/>
+                        <div class="flex gap-1 pt-5">
+                            <div class="w-8 h-8 bg-[#333333] rounded-full flex justify-center items-center shrink-0">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.48772 12.7157L8.77361 10.6074H4.31893L3.60482 12.7157H0.561348L4.88001 0.779863H8.24653L12.5652 12.7157H9.48772ZM8.0255 8.36303L6.54627 3.99336L5.08404 8.36303H8.0255Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-lg font-normal">一部門だけでも診断可能です。<br/>ただ、拠点や部署ごとの違いを比較したほうが、長所や短所がより明確になりますので、原則としては会社全体での人財定着力診断®をオススメしています。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item py-4 cursor-pointer bg-white rounded-lg mt-7">
+                    <div class="faq-question text-xl font-bold flex items-center justify-between px-3 py-5">
+                        <div class="flex items-center gap-1">
+                            <div class="w-8 h-8 bg-tradewind-400 rounded-full flex justify-center items-center">
+                                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.61149 6.71371C3.61149 8.80504 4.83568 10.1822 6.77398 10.1822C8.67827 10.1822 9.91947 8.80504 9.91947 6.71371C9.91947 4.58839 8.67827 3.24518 6.77398 3.24518C4.83568 3.24518 3.61149 4.58839 3.61149 6.71371ZM12.8779 6.71371C12.8779 8.80504 11.9598 10.5223 10.5316 11.6105L13.15 14.756H9.63042L8.10019 12.6986C7.67512 12.7836 7.23305 12.8347 6.77398 12.8347C3.39046 12.8347 0.636037 10.3013 0.636037 6.71371C0.636037 3.12616 3.39046 0.609776 6.77398 0.609776C10.1745 0.609776 12.8779 3.12616 12.8779 6.71371Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-xl text-tradewind-400">会社の一部門だけでも診断できますか?</p>
+                        </div>
+                        <span class="relative w-6 h-6 inline-block">
+                            <svg class="faq-toggle plus absolute inset-0 transition-all duration-300 opacity-100 scale-100" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                                <path d="M11.0847 19.8099L11.0847 2.20007" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                            <svg class="faq-toggle minus absolute inset-0 transition-all duration-300 opacity-0 scale-90 pointer-events-none" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M20.443 11H1.71582" stroke="#45B3B1" stroke-width="2.42894" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer text-base pt-3 hidden px-3 py-5">
+                        <hr class="border-[#D9D9D9] border-dashed"/>
+                        <div class="flex gap-1 pt-5">
+                            <div class="w-8 h-8 bg-[#333333] rounded-full flex justify-center items-center shrink-0">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.48772 12.7157L8.77361 10.6074H4.31893L3.60482 12.7157H0.561348L4.88001 0.779863H8.24653L12.5652 12.7157H9.48772ZM8.0255 8.36303L6.54627 3.99336L5.08404 8.36303H8.0255Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <p class="text-lg font-normal">一部門だけでも診断可能です。<br/>ただ、拠点や部署ごとの違いを比較したほうが、長所や短所がより明確になりますので、原則としては会社全体での人財定着力診断®をオススメしています。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $(function() {
+                    $('.faq-question').on('click', function() {
+                        var $answer = $(this).next('.faq-answer');
+                        var $plus = $(this).find('.faq-toggle.plus');
+                        var $minus = $(this).find('.faq-toggle.minus');
+                        $answer.slideToggle(300);
 
-
-
-
-
-
+                        // アイコン切り替えアニメーション
+                        if ($plus.hasClass('opacity-100')) {
+                            $plus.removeClass('opacity-100 scale-100').addClass('opacity-0 scale-90 pointer-events-none');
+                            $minus.removeClass('opacity-0 scale-90 pointer-events-none').addClass('opacity-100 scale-100');
+                        } else {
+                            $plus.removeClass('opacity-0 scale-90 pointer-events-none').addClass('opacity-100 scale-100');
+                            $minus.removeClass('opacity-100 scale-100').addClass('opacity-0 scale-90 pointer-events-none');
+                        }
+                    });
+                });
+            </script>
+        </div>
+    </div>
+    <div class="bg-white">
+        <div class="w-[768px] mx-auto pt-16 pb-24">
+            <div class="flex items-center">
+                <div class="w-32">社名</div>
+                <div>株式会社 TRY Link</div>
+            </div>
+            <svg class="my-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+            <div class="flex items-center">
+                <div class="w-32">設立</div>
+                <div>2007年3月2日</div>
+            </div>
+            <svg class="my-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+            <div class="flex items-center">
+                <div class="w-32">資本金</div>
+                <div>3000万円</div>
+            </div>
+            <svg class="my-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+            <div class="flex items-center">
+                <div class="w-32">代表者</div>
+                <div>堀 裕介</div>
+            </div>
+            <svg class="my-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+            <div class="flex items-center">
+                <div class="w-32">東京オフィス</div>
+                <div>&lt;本社機能&gt; 東京都港区芝2-30-14阿部ビル2F</div>
+            </div>
+            <svg class="my-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+            <div class="flex items-center">
+                <div class="w-32">愛知オフィス</div>
+                <div>&lt;営業機能&gt; 愛知県名古屋市中区丸の内2-2-15東照ビル1F</div>
+            </div>
+            <svg class="my-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+            <div class="flex items-center">
+                <div class="w-32">大阪オフィス</div>
+                <div>&lt;開発機能&gt; 大阪府大阪市淀川区西中島7丁目12-5日宝北2号館705</div>
+            </div>
+            <svg class="my-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+            <div class="flex items-center">
+                <div class="w-32">事業内容</div>
+                <div>世にない新規事業の創造と展開</div>
+            </div>
+            <svg class="my-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+            <div class="flex items-center">
+                <div class="w-32">事業目的</div>
+                <div>世の中を今より「ほっこり」させる</div>
+            </div>
+            <svg class="my-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+            <div class="flex items-center">
+                <div class="w-32">事業理念</div>
+                <div>会うたびに役に立つ事</div>
+            </div>
+            <svg class="mt-5" width="768" height="2" viewBox="0 0 768 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H67.5" stroke="#45B3B1"/>
+                <path d="M64 1H768" stroke="#D9D9D9"/>
+            </svg>
+        </div>
+        
+    </div>
 </body>
 </html>
