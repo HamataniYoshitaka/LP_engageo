@@ -39,3 +39,7 @@ body {
     font-weight: 600;
     font-style: normal;
 }
+
+.slide-item {
+  margin: 0 2px; /* ← 両端に10pxずつ余白 */
+}
