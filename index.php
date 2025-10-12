@@ -71,7 +71,6 @@
             </div>
         </div>
     </div>
-    <!-- TODO!ここ 写真の場所について（写真2枚つかってる） -->
     <div class="relative w-full h-[400px] px-6 xl:px-0">
         <div class="w-full xl:w-[1039px] h-auto mx-auto bg-white shadow-2xl p-7 md:p-9 md:flex justify-between items-center rounded-xl">
             <div class="text-center">
@@ -289,7 +288,7 @@
             <div class="md:flex pt-20 md:pt-28 gap-7">
                 <div>
                     <p class="w-max text-lg md:text-2xl text-white bg-tradewind-400 px-2 py-1 rounded-3xl poppins">Point.4</p>
-                    <p class="text-xl md:text-3xl pt-5 leading-relaxed tracking-tighter">組織の<span class="text-tradewind-400 marker tracking-normal">特性を数字にして見える化</span><br/>良いところを伸ばし、悪いところは改善</p><!-- タイトル前と同じ?? -->
+                    <p class="text-xl md:text-3xl pt-5 leading-relaxed tracking-tighter">組織の<span class="text-tradewind-400 marker tracking-normal">特性を数字にして見える化</span><br/>良いところを伸ばし、悪いところは改善</p>
                     <p class="font-normal text-base md:text-xl pt-9">
                         Engageoは上司と部下の垂直の関係性リーダシップを測ります。<br/>
                         <br/>
@@ -642,13 +641,8 @@
                 .slick-dots li.slick-active button:before { color: #45B3B1; }
                 .slick-slide { padding: 0px; }
             </style>
-            <!-- ✅ jQuery（Slickの必須依存） -->
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-            <!-- ✅ SlickのJS -->
             <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-            <!-- ✅ JSを直接ここに書く -->
             <script>
                 $(function () {
                 const $slider = $('.slider');
@@ -757,7 +751,7 @@
     </div>
     <div class="bg-[#F2F9FF]">
         <div class="flex flex-col items-center pt-14 md:pt-20 pb-16 md:pb-32 relative z-10">
-            <p class="text-xl md:text-3xl text-tradewind-400 poppins">Price</p><!-- 小文字?? -->
+            <p class="text-xl md:text-3xl text-tradewind-400 poppins">Price</p>
             <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
             <p class="text-2xl md:text-4xl">利用料金</p>
             <div class="relative flex flex-col md:flex-row justify-center items-center gap-3 mt-9 px-6 md:px-0">
@@ -826,7 +820,6 @@
             <p class="text-xl md:text-3xl text-tradewind-400 poppins">FAQ</p>
             <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
             <p class="text-2xl md:text-4xl">よくある質問</p>
-            <!-- FAQリスト例 -->
             <div class="faq-list w-full md:w-[771px] mx-auto pt-14 px-5 md:px-0">
                 <div class="faq-item py-4 cursor-pointer bg-white rounded-lg">
                     <div class="faq-question text-xl font-bold flex items-start md:items-center justify-between gap-1 md:gap-0 px-3 py-5">
