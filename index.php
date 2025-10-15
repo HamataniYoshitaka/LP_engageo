@@ -407,29 +407,29 @@
                 なにしろ 今後も求人は厳しくなる一方です<br/>
                 だから定着力は高いに越したことは<br class="block md:hidden"/>ありません
             </p>
-            <div class="w-full pt-14 flex flex-col md:flex-row md:justify-center items-center gap-1">
-                <div class="bg-white w-full md:w-60 h-auto md:h-28 pt-6 md:pt-4 pb-6 md:pb-0 pl-4 md:pl-2 xl:pl-4 flex flex-row md:flex-col items-center md:items-start gap-4 md:gap-0">
+            <div class="w-full pt-14 flex flex-col lg:flex-row lg:justify-center items-center gap-1">
+                <div class="bg-white w-full lg:w-60 h-auto lg:h-28 pt-6 lg:pt-4 pb-6 lg:pb-0 pl-4 lg:pl-2 xl:pl-4 flex flex-row lg:flex-col items-center lg:items-start gap-4 lg:gap-0">
                     <p class="text-tradewind-400 poppins text-xl">01</p>
                     <p class="font-normal text-base">採用が<span class="text-tradewind-400 font-bold text-xl">しんどい時代</span>です</p>
                 </div>
-                <svg class="rotate-90 md:rotate-0" width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="rotate-90 lg:rotate-0" width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.4978 14.0016L0.733828 27.3791L0.733829 0.624184L18.4978 14.0016Z" fill="#D9D9D9"/>
                 </svg>
-                <div class="bg-white w-full md:w-60 h-auto md:h-28 pt-6 md:pt-4 pb-6 md:pb-0 pl-4 md:pl-2 xl:pl-4 flex flex-row md:flex-col items-center md:items-start gap-4 md:gap-0">
+                <div class="bg-white w-full lg:w-60 h-auto lg:h-28 pt-6 lg:pt-4 pb-6 lg:pb-0 pl-4 lg:pl-2 xl:pl-4 flex flex-row lg:flex-col items-center lg:items-start gap-4 lg:gap-0">
                     <p class="text-tradewind-400 poppins text-xl">02</p>
                     <p class="font-normal text-base">そんな中<span class="text-tradewind-400 font-bold text-xl">離職が多いと</span><br/>採用会社ばかりが儲かります</p>
                 </div>
-                <svg class="rotate-90 md:rotate-0" width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="rotate-90 lg:rotate-0" width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.4978 14.0016L0.733828 27.3791L0.733829 0.624184L18.4978 14.0016Z" fill="#D9D9D9"/>
                 </svg>
-                <div class="bg-white w-full md:w-60 h-auto md:h-28 pt-6 md:pt-4 pb-6 md:pb-0 pl-4 md:pl-2 xl:pl-4 flex flex-row md:flex-col items-center md:items-start gap-4 md:gap-0">
+                <div class="bg-white w-full lg:w-60 h-auto lg:h-28 pt-6 lg:pt-4 pb-6 lg:pb-0 pl-4 lg:pl-2 xl:pl-4 flex flex-row lg:flex-col items-center lg:items-start gap-4 lg:gap-0">
                     <p class="text-tradewind-400 poppins text-xl">03</p>
                     <p class="font-normal text-base">それはとても<span class="text-tradewind-400 font-bold text-xl">もったいない</span><br/>と思い診断を作りました</p>
                 </div>
-                <svg class="rotate-90 md:rotate-0" width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="rotate-90 lg:rotate-0" width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.4978 14.0016L0.733828 27.3791L0.733829 0.624184L18.4978 14.0016Z" fill="#D9D9D9"/>
                 </svg>
-                <div class="bg-white w-full md:w-60 h-auto md:h-28 pt-6 md:pt-4 pb-6 md:pb-0 pl-4 md:pl-2 xl:pl-4 flex flex-row md:flex-col items-center md:items-start gap-4 md:gap-0">
+                <div class="bg-white w-full lg:w-60 h-auto lg:h-28 pt-6 lg:pt-4 pb-6 lg:pb-0 pl-4 lg:pl-2 xl:pl-4 flex flex-row lg:flex-col items-center lg:items-start gap-4 lg:gap-0">
                     <p class="text-tradewind-400 poppins text-xl">04</p>
                     <p class="font-normal text-base">だから<span class="text-tradewind-400 font-bold text-xl">定着力は高い</span>に<br/>越したことはありません</p>
                 </div>
@@ -682,65 +682,65 @@
             <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
             <p class="text-2xl md:text-4xl">Engageoの流れ</p>
             <div class="w-full xl:w-[1169px] mx-auto px-5 xl:px-0 pt-12">
-                <div class="md:flex justify-center items-center gap-10">
-                    <div class="relative flex flex-row md:flex-col items-center gap-5">
-                        <div class="relative w-full md:w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center pt-7 pb-4">
-                            <p class="poppins text-xl md:text-2xl text-tradewind-400 ">STEP1</p>
+                <div class="lg:flex justify-center items-center gap-10">
+                    <div class="relative flex flex-row lg:flex-col items-center gap-5">
+                        <div class="relative w-full lg:w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center pt-7 pb-4">
+                            <p class="poppins text-xl lg:text-2xl text-tradewind-400 ">STEP1</p>
                             <div class="grow"></div>
                             <img src="./src/images/flow-step1-1.svg" alt="">
                             <div class="grow"></div>
                             <p class="font-normal text-base text-center">無料簡易診断で<br/>自社のタイプ調べる</p>
-                            <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 -translate-x-1/2 md:-translate-x-0 md:left-auto right-auto md:-right-8 -bottom-14 md:bottom-10 rotate-90 md:rotate-0 z-50">
+                            <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 -translate-x-1/2 lg:-translate-x-0 lg:left-auto right-auto lg:-right-8 -bottom-14 lg:bottom-10 rotate-90 lg:rotate-0 z-50">
                         </div>
                         <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-tradewind-400 flex justify-center items-center z-50 shrink-0">
                             <p class="poppins text-white text-base font-medium">OR</p>
                         </div>
-                        <div class="relative w-full md:w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center pt-7 pb-4">
-                            <p class="poppins text-xl md:text-2xl text-tradewind-400">STEP1</p>
+                        <div class="relative w-full lg:w-[162px] h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-center pt-7 pb-4">
+                            <p class="poppins text-xl lg:text-2xl text-tradewind-400">STEP1</p>
                             <div class="grow"></div>
                             <img src="./src/images/flow-step1-2.svg" alt="">
                             <div class="grow"></div>
                             <p class="font-normal text-base text-center">さっそく説明を<br/>受けてみる</p>
-                            <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 -translate-x-1/2 md:-translate-x-0 md:left-auto right-auto md:-right-8 -bottom-14 md:bottom-auto top-auto md:top-10 rotate-90 md:rotate-0 z-50">
+                            <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 -translate-x-1/2 lg:-translate-x-0 lg:left-auto right-auto lg:-right-8 -bottom-14 lg:bottom-auto top-auto lg:top-10 rotate-90 lg:rotate-0 z-50">
                         </div>
                     </div>
-                    <div class="relative w-full md:w-[162px] h-auto md:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start md:items-center mt-16 md:mt-0 pt-6 md:pt-7 pb-4 px-6 md:px-0">
-                        <p class="poppins text-xl md:text-2xl text-tradewind-400">STEP2</p>
-                        <div class="hidden md:block grow"></div>
-                        <img src="./src/images/flow-step2.svg" alt="" class="absolute md:static top-1/2 md:top-auto -translate-y-1/2 md:translate-y-0 right-6">
-                        <div class="hidden md:block grow"></div>
-                        <p class="font-normal text-base text-center">WEB会議で<br class="hidden md:block"/>サービス説明</p>
-                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0 right-auto md:-right-8 -bottom-14 md:bottom-auto top-auto md:top-1/2 md:-translate-y-1/2 rotate-90 md:rotate-0 z-50">
+                    <div class="relative w-full lg:w-[162px] h-auto lg:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start lg:items-center mt-16 lg:mt-0 pt-6 lg:pt-7 pb-4 px-6 lg:px-0">
+                        <p class="poppins text-xl lg:text-2xl text-tradewind-400">STEP2</p>
+                        <div class="hidden lg:block grow"></div>
+                        <img src="./src/images/flow-step2.svg" alt="" class="absolute lg:static top-1/2 lg:top-auto -translate-y-1/2 lg:translate-y-0 right-6">
+                        <div class="hidden lg:block grow"></div>
+                        <p class="font-normal text-base text-center">WEB会議で<br class="hidden lg:block"/>サービス説明</p>
+                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 lg:left-auto -translate-x-1/2 lg:translate-x-0 right-auto lg:-right-8 -bottom-14 lg:bottom-auto top-auto lg:top-1/2 lg:-translate-y-1/2 rotate-90 lg:rotate-0 z-50">
                     </div>
-                    <div class="relative w-full md:w-[162px] h-auto md:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start md:items-center mt-16 md:mt-0 pt-6 md:pt-7 pb-4 md:pb-7 px-6 md:px-0">
-                        <p class="poppins text-xl md:text-2xl text-tradewind-400">STEP3</p>
-                        <div class="hidden md:block grow"></div>
-                        <img src="./src/images/flow-step3.svg" alt="" class="absolute md:static top-1/2 md:top-auto -translate-y-1/2 md:translate-y-0 right-6">
-                        <div class="hidden md:block grow"></div>
+                    <div class="relative w-full lg:w-[162px] h-auto lg:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start lg:items-center mt-16 lg:mt-0 pt-6 lg:pt-7 pb-4 lg:pb-7 px-6 lg:px-0">
+                        <p class="poppins text-xl lg:text-2xl text-tradewind-400">STEP3</p>
+                        <div class="hidden lg:block grow"></div>
+                        <img src="./src/images/flow-step3.svg" alt="" class="absolute lg:static top-1/2 lg:top-auto -translate-y-1/2 lg:translate-y-0 right-6">
+                        <div class="hidden lg:block grow"></div>
                         <p class="font-normal text-base text-center">ご契約</p>
-                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0 right-auto md:-right-8 -bottom-14 md:bottom-auto top-auto md:top-1/2 md:-translate-y-1/2 rotate-90 md:rotate-0 z-50">
+                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 lg:left-auto -translate-x-1/2 lg:translate-x-0 right-auto lg:-right-8 -bottom-14 lg:bottom-auto top-auto lg:top-1/2 lg:-translate-y-1/2 rotate-90 lg:rotate-0 z-50">
                     </div>
-                    <div class="relative w-full md:w-[162px] h-auto md:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start md:items-center mt-16 md:mt-0 pt-6 md:pt-7 pb-4 px-6 md:px-0">
-                        <p class="poppins text-xl md:text-2xl text-tradewind-400">STEP4</p>
-                        <div class="hidden md:block grow"></div>
-                        <img src="./src/images/flow-step4.svg" alt="" class="absolute md:static top-1/2 md:top-auto -translate-y-1/2 md:translate-y-0 right-6">
-                        <div class="hidden md:block grow"></div>
-                        <p class="font-normal text-base text-start md:text-center">当社より診断用の<br/>WEBリンクを発行</p>
-                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0 right-auto md:-right-8 -bottom-14 md:bottom-auto top-auto md:top-1/2 md:-translate-y-1/2 rotate-90 md:rotate-0 z-50">
+                    <div class="relative w-full lg:w-[162px] h-auto lg:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start lg:items-center mt-16 lg:mt-0 pt-6 lg:pt-7 pb-4 px-6 lg:px-0">
+                        <p class="poppins text-xl lg:text-2xl text-tradewind-400">STEP4</p>
+                        <div class="hidden lg:block grow"></div>
+                        <img src="./src/images/flow-step4.svg" alt="" class="absolute lg:static top-1/2 lg:top-auto -translate-y-1/2 lg:translate-y-0 right-6">
+                        <div class="hidden lg:block grow"></div>
+                        <p class="font-normal text-base text-start lg:text-center">当社より診断用の<br/>WEBリンクを発行</p>
+                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 lg:left-auto -translate-x-1/2 lg:translate-x-0 right-auto lg:-right-8 -bottom-14 lg:bottom-auto top-auto lg:top-1/2 lg:-translate-y-1/2 rotate-90 lg:rotate-0 z-50">
                     </div>
-                    <div class="relative w-full md:w-[162px] h-auto md:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start md:items-center mt-16 md:mt-0 pt-6 md:pt-7 pb-4 px-6 md:px-0">
-                        <p class="poppins text-xl md:text-2xl text-tradewind-400">STEP5</p>
-                        <div class="hidden md:block grow"></div>
-                        <img src="./src/images/flow-step5.svg" alt="" class="absolute md:static top-1/2 md:top-auto -translate-y-1/2 md:translate-y-0 right-6">
-                        <div class="hidden md:block grow"></div>
-                        <p class="font-normal text-base text-start md:text-center">社員にWEBリンクを<br/>配布しアンケート回収</p>
-                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0 right-auto md:-right-8 -bottom-14 md:bottom-auto top-auto md:top-1/2 md:-translate-y-1/2 rotate-90 md:rotate-0 z-50">
+                    <div class="relative w-full lg:w-[162px] h-auto lg:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start lg:items-center mt-16 lg:mt-0 pt-6 lg:pt-7 pb-4 px-6 lg:px-0">
+                        <p class="poppins text-xl lg:text-2xl text-tradewind-400">STEP5</p>
+                        <div class="hidden lg:block grow"></div>
+                        <img src="./src/images/flow-step5.svg" alt="" class="absolute lg:static top-1/2 lg:top-auto -translate-y-1/2 lg:translate-y-0 right-6">
+                        <div class="hidden lg:block grow"></div>
+                        <p class="font-normal text-base text-start lg:text-center">社員にWEBリンクを<br/>配布しアンケート回収</p>
+                        <img src="./src/images/flow-arrow.svg" alt="" class="absolute left-1/2 lg:left-auto -translate-x-1/2 lg:translate-x-0 right-auto lg:-right-8 -bottom-14 lg:bottom-auto top-auto lg:top-1/2 lg:-translate-y-1/2 rotate-90 lg:rotate-0 z-50">
                     </div>
-                    <div class="relative w-full md:w-[162px] h-auto md:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start md:items-center mt-16 md:mt-0 pt-6 md:pt-7 pb-4 px-6 md:px-0">
-                        <p class="poppins text-xl md:text-2xl text-tradewind-400">STEP6</p>
-                        <div class="hidden md:block grow"></div>
-                        <img src="./src/images/flow-step6.svg" alt="" class="absolute md:static top-1/2 md:top-auto -translate-y-1/2 md:translate-y-0 right-6">
-                        <div class="hidden md:block grow"></div>
+                    <div class="relative w-full lg:w-[162px] h-auto lg:h-60 bg-white shadow-[#C0ECEB99] shadow-xl flex flex-col items-start lg:items-center mt-16 lg:mt-0 pt-6 lg:pt-7 pb-4 px-6 lg:px-0">
+                        <p class="poppins text-xl lg:text-2xl text-tradewind-400">STEP6</p>
+                        <div class="hidden lg:block grow"></div>
+                        <img src="./src/images/flow-step6.svg" alt="" class="absolute lg:static top-1/2 lg:top-auto -translate-y-1/2 lg:translate-y-0 right-6">
+                        <div class="hidden lg:block grow"></div>
                         <p class="font-normal text-base text-center">診断報告</p>
                     </div>
                 </div>
