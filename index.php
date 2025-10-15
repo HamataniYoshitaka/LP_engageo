@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="./src/popup.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
@@ -64,15 +63,15 @@
     </div>
     <div class="bg-white w-full">
         <div class="flex flex-col md:flex-row justify-center items-center md:space-x-11 pt-3 md:pt-11 pb-16 md:pb-24">
-            <img src="./src/images/pr1.svg" alt="" class="w-52 md:w-64 h-auto">
-            <div class="flex justify-center items-center gap-4 md:gap-11 pt-4 md:pt-0">
-                <img src="./src/images/pr2.svg" alt="" class="w-40 md:w-64 h-auto">
-                <img src="./src/images/pr3.svg" alt="" class="w-40 md:w-64 h-auto">
+            <img src="./src/images/pr1.svg" alt="" class="w-52 lg:w-64 h-auto">
+            <div class="flex justify-center items-center gap-4 lg:gap-11 pt-4 lg:pt-0">
+                <img src="./src/images/pr2.svg" alt="" class="w-40 md:w-52 lg:w-64 h-auto">
+                <img src="./src/images/pr3.svg" alt="" class="w-40 md:w-52 lg:w-64 h-auto">
             </div>
         </div>
     </div>
-    <div class="relative w-full h-[400px] px-6 xl:px-0">
-        <div class="w-full xl:w-[1039px] h-auto mx-auto bg-white shadow-2xl p-7 md:p-9 md:flex justify-between items-center rounded-xl">
+    <div class="relative w-full h-[400px] md:h-[800px] lg:h-[400px] px-6 xl:px-0">
+        <div class="w-full xl:w-[1039px] h-auto mx-auto bg-white shadow-2xl p-7 lg:p-9 lg:flex justify-between items-center rounded-xl">
             <div class="text-center">
                 <p class="text-lg md:text-3xl">
                     まずは
@@ -86,7 +85,7 @@
                     の組織傾向診断で
                 </p>
                 <p class="text-tradewind-400 text-xl md:text-4xl pt-3">自社の特徴をチェック!</p>
-                <img src="./src/images/materials-1.svg" alt="" class="block md:hidden w-full h-auto pt-2">
+                <img src="./src/images/materials-1.svg" alt="" class="block lg:hidden w-full h-auto pt-2">
                 <div class="flex justify-center items-center gap-2 pt-5">
                     <p class="w-24 md:w-32 h-24 md:h-32 border border-tradewind-400 rounded-full flex justify-center items-center text-lg md:text-2xl text-tradewind-400">自社の<br/>組織<br/>タイプ</p>
                     <p class="w-24 md:w-32 h-24 md:h-32 border border-tradewind-400 rounded-full flex justify-center items-center text-lg md:text-2xl text-tradewind-400">有効な<br/>改善策</p>
@@ -102,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <img src="./src/images/materials-1.svg" alt="" class="w-[457px] h-auto hidden md:block">
+            <img src="./src/images/materials-1.svg" alt="" class="w-[457px] h-auto hidden lg:block">
         </div>
     </div>
     <div class="bg-[#F5F8F5] h-[404px] -mt-72"></div>
@@ -648,20 +647,20 @@
 
                 function initSlick() {
                     if ($(window).width() <= 768) {
-                    if (!$slider.hasClass('slick-initialized')) {
-                        $slider.slick({
-                        dots: true,
-                        arrows: false,
-                        infinite: false,
-                        slidesToShow: 1,
-                        centerMode: true,
-                        centerPadding: '24px',
-                        });
-                    }
+                        if (!$slider.hasClass('slick-initialized')) {
+                            $slider.slick({
+                                dots: true,
+                                arrows: false,
+                                infinite: false,
+                                slidesToShow: 1,
+                                centerMode: true,
+                                centerPadding: '24px',
+                            });
+                        }
                     } else {
-                    if ($slider.hasClass('slick-initialized')) {
-                        $slider.slick('unslick');
-                    }
+                        if ($slider.hasClass('slick-initialized')) {
+                            $slider.slick('unslick');
+                        }
                     }
                 }
 
