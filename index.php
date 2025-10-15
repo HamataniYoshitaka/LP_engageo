@@ -442,7 +442,7 @@
             <p class="text-xl md:text-3xl text-tradewind-400 poppins">CASE</p>
             <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
             <p class="text-2xl md:text-4xl">組織タイプ別のケース例</p>
-            <div class="slider md:grid md:grid-cols-2 gap-8 w-full xl:w-[1036px] mx-auto pt-16 px-0 md:px-5 xl:px-0">
+            <div class="slider md:grid md:grid-cols-2 gap-8 w-full xl:w-[1036px] mx-auto pt-16 px-0 lg:px-5 xl:px-0">
                 <div class="slide-item bg-white rounded-lg">
                     <div class="py-7 px-5 ">
                         <div class="flex items-center gap-5">
@@ -752,14 +752,14 @@
             <p class="text-xl md:text-3xl text-tradewind-400 poppins">Price</p>
             <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
             <p class="text-2xl md:text-4xl">利用料金</p>
-            <div class="relative flex flex-col md:flex-row justify-center items-center gap-3 mt-9 px-6 md:px-0">
-                <div class="bg-white px-10 md:px-16 py-9 md:py-14 flex flex-col items-center">
-                    <p class="bg-tradewind-400 text-white text-lg md:text-2xl px-20 md:px-32 py-1 rounded-full">基本料金</p>
-                    <p class="text-2xl md:text-3xl pt-8"><span class="text-tradewind-400 text-4xl md:text-6xl poppins">55,000</span>円(税込)</p>
+            <div class="relative flex flex-col lg:flex-row justify-center items-center gap-3 mt-9 px-6 lg:px-0">
+                <div class="bg-white px-10 lg:px-16 py-9 lg:py-14 flex flex-col items-center">
+                    <p class="bg-tradewind-400 text-white text-lg lg:text-2xl px-20 lg:px-32 py-1 rounded-full">基本料金</p>
+                    <p class="text-2xl lg:text-3xl pt-8"><span class="text-tradewind-400 text-4xl lg:text-6xl poppins">55,000</span>円(税込)</p>
                 </div>
-                <div class="bg-white px-10 md:px-16 py-9 md:py-14 flex flex-col items-center">
-                    <p class="bg-tradewind-400 text-white text-lg md:text-2xl px-20 md:px-32 py-1 rounded-full">人数料金</p>
-                    <p class="text-2xl md:text-3xl pt-8"><span class="text-tradewind-400 text-4xl md:text-6xl poppins">330</span>円/人(税込)</p>
+                <div class="bg-white px-10 lg:px-16 py-9 lg:py-14 flex flex-col items-center">
+                    <p class="bg-tradewind-400 text-white text-lg lg:text-2xl px-20 lg:px-32 py-1 rounded-full">人数料金</p>
+                    <p class="text-2xl lg:text-3xl pt-8"><span class="text-tradewind-400 text-4xl lg:text-6xl poppins">330</span>円/人(税込)</p>
                 </div>
                 <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-12 h-12 bg-tradewind-400 rounded-full flex justify-center items-center">
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -818,7 +818,7 @@
             <p class="text-xl md:text-3xl text-tradewind-400 poppins">FAQ</p>
             <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
             <p class="text-2xl md:text-4xl">よくある質問</p>
-            <div class="faq-list w-full md:w-[771px] mx-auto pt-14 px-5 md:px-0">
+            <div class="faq-list w-full md:w-[771px] mx-auto pt-14 px-5 lg:px-0">
                 <div class="faq-item py-4 cursor-pointer bg-white rounded-lg">
                     <div class="faq-question text-xl font-bold flex items-start md:items-center justify-between gap-1 md:gap-0 px-3 py-5">
                         <div class="flex items-start md:items-center gap-1">
@@ -1002,8 +1002,8 @@
         </div>
     </div>
     <div class="bg-white">
-        <div class="w-full md:w-[768px] mx-auto pt-14 md:pt-16 pb-20 md:pb-24 px-5 md:px-0 font-normal">
-            <div class="flex items-start md:items-center">
+        <div class="w-full lg:w-[768px] mx-auto pt-14 lg:pt-16 pb-20 lg:pb-24 px-5 lg:px-0 font-normal">
+            <div class="flex items-start lg:items-center">
                 <div class="w-32 shrink-0">社名</div>
                 <div>株式会社 TRY Link</div>
             </div>
