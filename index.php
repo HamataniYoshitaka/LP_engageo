@@ -443,129 +443,128 @@
             <p class="text-xl md:text-3xl text-tradewind-400 poppins">CASE</p>
             <div class="border border-tradewind-400 w-6 rounded-full my-7"></div>
             <p class="text-2xl md:text-4xl">組織タイプ別のケース例</p>
-            <!-- TODO!ここ heightを揃えたい -->
-            <div class="slider grid grid-cols-1 md:grid-cols-2 gap-8 w-full xl:w-[1036px] mx-auto pt-16 px-0 md:px-5 xl:px-0">
-                <div class="slide-item">
-                    <div class=" bg-white py-7 px-5 rounded-lg">
+            <div class="slider md:grid md:grid-cols-2 gap-8 w-full xl:w-[1036px] mx-auto pt-16 px-0 md:px-5 xl:px-0">
+                <div class="slide-item bg-white rounded-lg">
+                    <div class="py-7 px-5 ">
                         <div class="flex items-center gap-5">
                             <img src="./src/images/point-4-mark1.svg" alt="" class="w-7 h-auto" />
                             <p class="text-xl text-tradewind-400">垂直型</p>
                         </div>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">上司から部下への強制力は強く、業績につながる行動がとりやすい組織特性です。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">上司から部下への強制力は強く、業績につながる行動がとりやすい組織特性です。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">反面、同僚との横方向のつながりは弱く、チームワークには課題が残ります。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">反面、同僚との横方向のつながりは弱く、チームワークには課題が残ります。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">横のつながりが弱い組織は殺伐とした文化となり、離職につながりやすいです。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">横のつながりが弱い組織は殺伐とした文化となり、離職につながりやすいです。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">良い意味でのストレス、良い意味での競争意識があれば垂直型の良さが活かされます。</p>
+                            <p class="pl-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">良い意味でのストレス、良い意味での競争意識があれば垂直型の良さが活かされます。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-tradewind-400 rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">皆で情報を共有したり、得意な分野で助け合ったりすることが出来れば組織力は上がります。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">皆で情報を共有したり、得意な分野で助け合ったりすることが出来れば組織力は上がります。</p>
                         </div>
                     </div>
                 </div>
-                <div class="slide-item">
-                    <div class="bg-white py-7 px-5 rounded-lg">
+                <div class="slide-item bg-white rounded-lg">
+                    <div class="py-7 px-5">
                         <div class="flex items-center gap-3">
                             <img src="./src/images/point-4-mark2.svg" alt="" class="w-11 h-auto" />
                             <p class="text-xl text-[#458BB3]">安定型</p>
                         </div>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#458BB3] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#458BB3] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">上司・同僚ともにつながりが強く、好ましい組織文化を持っています。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">上司・同僚ともにつながりが強く、好ましい組織文化を持っています。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#458BB3] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#458BB3] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">チームワークも作りやすく、業務遂行能力も高い傾向があります。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">チームワークも作りやすく、業務遂行能力も高い傾向があります。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#458BB3] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#458BB3] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">部門間の格差をなくし、好ましい文化を伸ばすことができれば一段上の結果が得られます。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">部間間の格差をなくし、好ましい文化を伸ばすことができれば一段上の結果が得られます。</p>
                         </div>
                     </div>
                 </div>
-                <div class="slide-item">
-                    <div class="bg-white py-7 px-5 rounded-lg">
+                <div class="slide-item bg-white rounded-lg">
+                    <div class="py-7 px-5">
                         <div class="flex items-center gap-2">
                             <img src="./src/images/point-4-mark3.svg" alt="" class="w-14 h-auto" />
                             <p class="text-xl text-[#45B364]">孤立型</p>
                         </div>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">上司・部下ともにつながりが弱い、一匹狼的な組織文化を持ちます。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">上司・部下ともにつながりが弱い、一匹狼的な組織文化を持ちます。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">つながりは弱いですが、一概に悪い文化とは言えません。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">つながりは弱いですが、一概に悪い文化とは言えません。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">自分のペースでの仕事を好む人には居心地の良い組織文化とも言えます。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">自分のペースでの仕事を好む人には居心地の良い組織文化とも言えます。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
@@ -574,7 +573,7 @@
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#45B364] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
@@ -583,55 +582,55 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide-item">
-                    <div class="bg-white py-7 px-5 rounded-lg">
+                <div class="slide-item bg-white rounded-lg">
+                    <div class="py-7 px-5">
                         <div class="flex items-center gap-2">
                             <img src="./src/images/point-4-mark4.svg" alt="" class="w-11 h-auto" />
                             <p class="text-xl text-[#A16CAC]">水平型</p>
                         </div>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">同僚との横のつながりは強く、仲間意識や助け合いが発生しやすい組織特性です。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">同僚との横のつながりは強く、仲間意識や助け合いが発生しやすい組織特性です。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">ただし上司との関係性は弱く、業務遂行能力は低下しがちです。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">ただし上司との関係性は弱く、業務遂行能力は低下しがちです。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">悪い状態だと、馴れ合い型の組織になり、上司は部下のわがままに振り回されます。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">悪い状態だと、馴れ合い型の組織になり、上司は部下のわがままに振り回されます。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">また、横のつながりが強いが故に、一度に大量離職が発生する素地があります。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">また、横のつながりが強いが故に、一度に大量離職が発生する素地があります。</p>
                         </div>
                         <hr class="w-full my-3 border-[#D9D9D9] border-dashed"/>
                         <div class="pt-3 flex">
-                            <div class="w-3 h-3 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
+                            <div class="w-3 md:w-5 h-3 md:h-5 bg-[#C09FC8] rounded-full flex justify-center items-center shrink-0 mt-[6px]">
                                 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.01514 3.63004L3.16339 6.13634L7.03025 1.625" stroke="white" stroke-width="1.50378" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <p class="pl-1 pr-6 font-normal text-base md:text-lg leading-relaxed">上司との関係を改善すると、チームワークと業務遂行能力を兼ね揃えた組織へと変わります。</p>
+                            <p class="px-1 md:pl-4 font-normal text-base md:text-lg leading-relaxed">上司との関係を改善すると、チームワークと業務遂行能力を兼ね揃えた組織へと変わります。</p>
                         </div>
                     </div>
                 </div>
@@ -656,7 +655,7 @@
                         infinite: false,
                         slidesToShow: 1,
                         centerMode: true,
-                        centerPadding: '10px',
+                        centerPadding: '24px',
                         });
                     }
                     } else {
